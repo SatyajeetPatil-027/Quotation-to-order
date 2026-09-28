@@ -1,0 +1,144 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f6f8;
+}
+
+.container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 0 16px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav button {
+  margin-right: 8px;
+}
+
+form input {
+  margin: 4px 6px 4px 0;
+  padding: 6px;
+}
+
+button {
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+  background: white;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background: #e8edf2;
+}
+
+.message {
+  color: #0a7a3d;
+}
+
+.badge {
+  color: white;
+  padding: 3px 8px;
+  border-radius: 10px;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.message.error {
+  color: #c0392b;
+}
+
+td button {
+  margin-right: 6px;
+}
+
+.waiting {
+  color: #888;
+  font-size: 13px;
+}
+
+.form-row {
+  margin: 12px 0;
+}
+
+.form-row label {
+  display: inline-block;
+  width: 110px;
+  font-weight: bold;
+}
+
+.item-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 8px 0;
+}
+
+.item-row input {
+  width: 70px;
+}
+
+.line-total {
+  min-width: 90px;
+}
+
+.warning {
+  color: #e67e22;
+  margin-left: 10px;
+  font-size: 13px;
+}
+
+.totals {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 8px 16px;
+  margin: 16px 0;
+  max-width: 300px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 12px 0 24px 0;
+}
+
+.card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 14px 18px;
+  min-width: 140px;
+  text-align: center;
+}
+
+.card.big {
+  background: #eaf2fb;
+  min-width: 190px;
+}
+
+.card-number {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.card-label {
+  color: #666;
+  font-size: 14px;
+  margin-top: 4px;
+}
