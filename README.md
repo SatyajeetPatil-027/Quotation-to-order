@@ -1,5 +1,5 @@
 # Quotation-to-Order System
-A full-stack business web app that takes a customer quotation all the way through approval, sending, acceptance, and conversion into an order — built as a campus hiring assessment project (Thinqloud).
+A full-stack business web app that takes a customer quotation all the way through approval, sending, acceptance, and conversion into an order.
 
 ## Overview
 A **Salesperson** creates a price quotation for a customer by adding one or more products. Depending on the discount given, the quotation may need **Manager** approval before it can be sent to the customer. Once the customer accepts, the quotation can be converted into an **Order** — but only once.
